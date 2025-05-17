@@ -1,0 +1,6 @@
+@AssetivoBackend_HostAddress = http://localhost:5069
+
+GET {{AssetivoBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
