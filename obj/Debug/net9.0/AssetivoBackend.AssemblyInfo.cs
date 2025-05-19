@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AssetivoBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+742219d9b44dc86a7562e66f17604943576ed10a")]
 [assembly: System.Reflection.AssemblyProductAttribute("AssetivoBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AssetivoBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
