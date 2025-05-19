@@ -68,6 +68,18 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
+// Allow all origins for development — NOT for production!
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
+
 
 // FirebaseApp.Create(new AppOptions()
 // {
@@ -101,6 +113,8 @@ app.UseAuthorization();
 app.UseHttpsRedirection();
 
 app.MapControllers();
+
+app.UseCors("AllowAllOrigins");
 
 
 app.Run();
